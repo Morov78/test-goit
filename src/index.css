@@ -1,0 +1,22 @@
+@import "modern-normalize/modern-normalize.css";
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Monserrat"),
+    url("./fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+  font-family: "montserrat";
+}
+
+p,
+li,
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+}

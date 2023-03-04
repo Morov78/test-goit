@@ -1,0 +1,69 @@
+[
+    {
+        "id": "1",
+        "user": "Elon Reeve Musk",
+        "tweets": 777,
+        "followers": 100500,
+        "avatar": "user1.png"
+},
+{
+        "id": "2",
+        "user": "Elon Reeve Musk",
+        "tweets": 121,
+        "followers": 320,
+        "avatar": "user2.png"
+},{
+        "id": "3",
+        "user": "Elon Reeve Musk",
+        "tweets": 234,
+        "followers": 10500,
+        "avatar": "user3.png"
+},{
+        "id": "4",
+        "user": "Elon Reeve Musk",
+        "tweets": 7727,
+        "followers": 1030500,
+        "avatar": "user4.png"
+},{
+        "id": "5",
+        "user": "Elon Reeve Musk",
+        "tweets": 23,
+        "followers": 1230,
+        "avatar": "user5.png"
+},
+{
+        "id": "6",
+        "user": "Elon Reeve Musk",
+        "tweets": 561,
+        "followers": 10300,
+        "avatar": "user6.png"
+},
+{
+        "id": "7",
+        "user": "Elon Reeve Musk",
+        "tweets": 378,
+        "followers": 10500,
+        "avatar": "user7.png"
+},
+{
+        "id": "8",
+        "user": "Elon Reeve Musk",
+        "tweets": 291,
+        "followers": 10010,
+        "avatar": "user8.png"
+},
+{
+        "id": "9",
+        "user": "Elon Reeve Musk",
+        "tweets": 1241,
+        "followers": 500500,
+        "avatar": "user9.png"
+},
+{
+        "id": "10",
+        "user": "Elon Reeve Musk",
+        "tweets": 337,
+        "followers": 50500,
+        "avatar": "user10.png"
+}
+]

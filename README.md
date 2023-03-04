@@ -1,3 +1,3 @@
 Тестове завдання.
 
-[Deploy app](brave-wetsuit-fly.cyclic.app/).
+[Deploy app](https://brave-wetsuit-fly.cyclic.app/).

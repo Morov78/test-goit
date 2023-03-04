@@ -17,8 +17,6 @@ const CardItem = ({ id, tweets, followers, avatar }) => {
 
   const isFirst = useRef(true);
 
-  // const { id, tweets, avatar } = user;
-
   useEffect(() => {
     const followings = storage.get("followings");
 
@@ -27,8 +25,6 @@ const CardItem = ({ id, tweets, followers, avatar }) => {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
-  console.log("ISFOLLOWINGS", isFollowing);
 
   useEffect(() => {
     if (isFirst.current) {
@@ -50,8 +46,6 @@ const CardItem = ({ id, tweets, followers, avatar }) => {
 
     const followings = storage.get("followings");
 
-    console.log("FOLSTART", followings);
-
     if (isFollowing && !followings.includes(id)) {
       followings.push(id);
     }
@@ -61,7 +55,6 @@ const CardItem = ({ id, tweets, followers, avatar }) => {
       followings.splice(index, 1);
     }
 
-    console.log("FOLEND", followings);
     storage.set("followings", followings);
 
     // eslint-disable-next-line react-hooks/exhaustive-deps

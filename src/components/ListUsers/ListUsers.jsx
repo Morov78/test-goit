@@ -6,7 +6,7 @@ import { List } from "./ListUsers.styled";
 const ListUsers = ({ users }) => {
   return (
     <List>
-      {users.map(({ id, tweets, followers, avatar }) => {
+      {users.map(({ id, tweets, followers, avatar, user }) => {
         return (
           <li key={id}>
             <CardUser
@@ -14,6 +14,7 @@ const ListUsers = ({ users }) => {
               tweets={tweets}
               followers={followers}
               avatar={avatar}
+              user={user}
             />
           </li>
         );

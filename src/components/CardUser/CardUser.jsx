@@ -9,7 +9,7 @@ import UserAvatar from "./UserAvatar/UserAvatar";
 
 import convertingToNumberWithComma from "../../utils/convertingNumber";
 
-const CardItem = ({ id, tweets, followers, avatar }) => {
+const CardItem = ({ id, tweets, followers, avatar, user }) => {
   const [isFollowing, setIsFollowing] = useState();
   const [currentFollowers, setCurrentFollowers] = useState(followers);
 
@@ -74,7 +74,7 @@ const CardItem = ({ id, tweets, followers, avatar }) => {
   return (
     <Card>
       <Logo src={logo} alt="logo GOIT" />
-      <UserAvatar avatar={avatar} />
+      <UserAvatar avatar={avatar} user={user} />
       <Text>{convertedTweets} tweets</Text>
       <Text style={{ marginBottom: "26px" }}>
         {convertedFollowers} followers
@@ -91,6 +91,7 @@ CardItem.propTypes = {
   tweets: PropTypes.number.isRequired,
   followers: PropTypes.number.isRequired,
   avatar: PropTypes.string.isRequired,
+  user: PropTypes.string.isRequired,
 };
 
 export default CardItem;
